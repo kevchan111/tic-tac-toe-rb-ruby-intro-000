@@ -91,16 +91,16 @@ describe './lib/tic_tac_toe.rb' do
       board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
       position = 0
-      expect(position_taken?(board, position)).to be_truthy
+      expect(position_taken?(board, position)).to (true)
 
       position = 8
-      expect(position_taken?(board, position)).to be_truthy
+      expect(position_taken?(board, position)).to (true)
 
       position = 1
-      expect(position_taken?(board, position)).to be_falsey
+      expect(position_taken?(board, position)).to (false)
 
       position = 7
-      expect(position_taken?(board, position)).to be_falsey
+      expect(position_taken?(board, position)).to (false)
     end
   end
 

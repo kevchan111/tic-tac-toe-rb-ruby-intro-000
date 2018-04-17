@@ -125,19 +125,4 @@ end
 
 def play(board)
   input = gets
-end 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+end
